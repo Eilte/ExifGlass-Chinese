@@ -1,9 +1,9 @@
 {
     "ApiVersion": 1,
     "Version": "1.8.0.0",
-    "Title": "ExifGlass 1.8",
-    "Description": "- Upgraded to .NET 9.\r\n- Updated the internal ExifTool.exe to v13.25.",
-    "ChangelogUrl": "https://github.com/d2phap/ExifGlass/releases",
-    "PublishedDate": "2025-03-21T10:53:26",
-    "DownloadUrl": "https://github.com/d2phap/ExifGlass/releases"
+    "Title": "ExifGlass-Chinese 1.8",
+    "Description": "- 汉化 1.8.0.0\r\n- Upgraded to .NET 9.\r\n- Updated the internal ExifTool.exe to v13.25.",
+    "ChangelogUrl": "https://github.com/Eilte/ExifGlass-Chinese/releases",
+    "PublishedDate": "2025-07-17T16:06:00",
+    "DownloadUrl": "https://github.com/Eilte/ExifGlass-Chinese/releases"
 }

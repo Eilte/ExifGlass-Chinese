@@ -5,7 +5,7 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:svg="clr-namespace:Avalonia.Svg;assembly=Avalonia.Svg"
-    Title="About"
+    Title="关于"
     d:DesignHeight="450"
     d:DesignWidth="400"
     CanResize="False"
@@ -53,8 +53,8 @@
                         ExifGlass
                     </TextBlock>
                     <TextBlock FontSize="15" TextWrapping="Wrap">
-                        EXIF metadata viewer
-                    </TextBlock>
+						EXIF 元数据查看器
+					</TextBlock>
 
 
                     <StackPanel Margin="0,20,0,0" Orientation="Horizontal">
@@ -62,7 +62,7 @@
                             Margin="0,0,5,0"
                             FontSize="17"
                             FontWeight="SemiBold">
-                            Version:
+                            版本:
                         </TextBlock>
                         <TextBlock
                             Name="TblVersion"
@@ -72,17 +72,30 @@
                     <TextBlock Margin="0,15,0,0" TextWrapping="Wrap">Copyright © 2023-2014 by Dương Diệu Pháp.</TextBlock>
                     <TextBlock TextWrapping="Wrap">All rights reserved.</TextBlock>
 
+					<StackPanel Margin="0,15,0,0" Orientation="Horizontal">
+						<TextBlock Margin="0,0,5,0">
+							汉化：Eilte
+						</TextBlock>
+						<TextBlock
+                            Name="Eilte"
+                            Cursor="Hand"
+                            Foreground="{DynamicResource SystemAccentColor}"
+                            TextDecorations="Underline">
+							https://github.com/Eilte
+						</TextBlock>
+					</StackPanel>
+
                     <StackPanel Margin="0,15,0,0" Orientation="Horizontal">
                         <TextBlock Margin="0,0,5,0">
-                            Website:
+                            网站:
                         </TextBlock>
                         <TextBlock
                             Name="TblWebsite"
                             Cursor="Hand"
                             Foreground="{DynamicResource SystemAccentColor}"
                             TextDecorations="Underline">
-                            https://github.com/d2phap/ExifGlass
-                        </TextBlock>
+							https://github.com/d2phap/ExifGlass
+						</TextBlock>
                     </StackPanel>
 
 
@@ -102,7 +115,7 @@
                         Padding="0"
                         HorizontalAlignment="Stretch"
                         FontWeight="SemiBold"
-                        Header="Credits">
+                        Header="致谢">
                         <ScrollViewer
                             MaxHeight="150"
                             HorizontalScrollBarVisibility="Disabled"
@@ -178,7 +191,7 @@
                         MinWidth="80"
                         Margin="15,0,0,0"
                         HorizontalContentAlignment="Center">
-                        Check for update
+                        检查更新
                     </Button>
                     <Button
                         Name="BtnClose"
@@ -186,7 +199,7 @@
                         MinWidth="80"
                         Margin="15,0,0,0"
                         HorizontalContentAlignment="Center">
-                        Close
+                        关闭
                     </Button>
                 </Grid>
             </Border>

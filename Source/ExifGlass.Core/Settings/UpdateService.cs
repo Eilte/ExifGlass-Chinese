@@ -57,7 +57,7 @@ public class UpdateService
     /// </summary>
     public async Task GetUpdatesAsync()
     {
-        var url = "https://raw.githubusercontent.com/d2phap/ExifGlass/main/update.json";
+        var url = "https://raw.githubusercontent.com/Eilte/ExifGlass-Chinese/main/update.json";
 
 
         using var httpClient = new HttpClient();

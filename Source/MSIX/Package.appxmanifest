@@ -10,7 +10,7 @@
 
   <Identity
     Name="9662DuongDieuPhap.ExifGlass"
-    Publisher="CN=29F1B9EC-D220-4DC3-BEDB-01A9CCA51904"
+    Publisher="CN=Contoso Software, O=Contoso Corporation, C=US"
     Version="1.5.0.0" />
 
   <Properties>
