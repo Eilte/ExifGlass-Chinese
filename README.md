@@ -14,5 +14,5 @@ ExifGlass 是一款 EXIF 元数据查看工具，旨在与 [ImageGlass 9](https:
 - Add [ImageGlass.Tools](https://www.nuget.org/packages/ImageGlass.Tools) package.
 
 ## LICENSE
-Licensed under [GPLv3](https://github.com/d2phap/ExifGlass/blob/main/LICENSE)
+Licensed under [GPLv3](https://github.com/Eilte/ExifGlass-Chinese/blob/main/LICENSE)
 
